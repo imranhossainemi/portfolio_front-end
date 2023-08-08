@@ -2,7 +2,7 @@ import React, { Link } from 'react';
 
 const Navbar = () => (
   <nav>
-    <button className="mobile-nav-btm" id="open" type="buttom" />
+    <button className="mobile-nav-btm" id="open" type="button">  </button>
     <ul className="navigation">
       <li className="nav-item">
         <Link to="#portfolio" className="nav-link">Portfolio</Link>
