@@ -3,7 +3,12 @@ import Navbar from './Navbar';
 
 const Header = () => (
   <header>
-    <Navbar />
+    <div className="navSec">
+      <div className="logo">
+        <p>welcome</p>
+      </div>
+      <Navbar />
+    </div>
   </header>
 );
 
