@@ -1,4 +1,5 @@
 import React from 'react';
+import SocialMedia from './SocialMedia';
 
 const Banner = () => (
   <section className="banner">
@@ -20,6 +21,7 @@ const Banner = () => (
         do not hestiate to contact me.
       </p>
     </div>
+    <SocialMedia />
   </section>
 );
 
