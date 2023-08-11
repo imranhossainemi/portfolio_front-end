@@ -1,0 +1,18 @@
+
+.socialMedia {
+  width: 250px;
+}
+
+.socialMedia ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.socialMedia ul li a svg {
+  color:hsl(218, 31%, 30%);
+}
+
+.socialMedia ul li a svg:hover {
+  transform: scale(2);
+}
