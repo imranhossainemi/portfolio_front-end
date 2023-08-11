@@ -1,7 +1,10 @@
 import React from 'react';
+import Banner from './Banner';
 
 const Main = () => (
-  <main />
+  <main>
+    <Banner />
+  </main>
 );
 
 export default Main;
