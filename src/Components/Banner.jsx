@@ -1,17 +1,18 @@
 import React from 'react';
 import SocialMedia from './SocialMedia';
+import styles from '../Styles/Banner.module.css';
 
 const Banner = () => (
-  <section className="banner">
-    <div className="headline">
+  <section className={styles.banner}>
+    <div className={styles.headline}>
       <h1>
         Hey there. I am Imran Hossain
         {' '}
+        <br />
         <span>I am a software developer</span>
-        {' '}
       </h1>
     </div>
-    <div className="article">
+    <div className={styles.article}>
       <p>
         I can help you build a product ,
         feature or website Look through
