@@ -17,6 +17,39 @@ body {
   margin: 0 auto;
 }
 
+.btm {
+  color: hsl(0, 0%, 100%);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  background-color: hsl(155, 54%, 42%);
+  padding: 8px 12px;
+  border-radius: 4px;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  text-transform: capitalize;
+}
+
+.btm:focus,
+.btm:hover {
+  box-shadow: 2px 4px 6px hsla(180, 1%, 28%, 0.397);
+  background-color: hsl(155, 54%, 43%);
+  transform: translateY(4px);
+}
+
+.btm:active {
+  transform: translateY(4px);
+}
+
+.btm:enabled {
+  background-color: hsl(155, 54%, 46%);
+}
+
+
 @media screen and (min-width: 780px) {
   body {
     max-width: 1440px;
