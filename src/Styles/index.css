@@ -11,11 +11,6 @@ b {
   text-decoration: underline;
 }
 
-body {
-  max-width: 375px;
-  height: auto;
-  margin: 0 auto;
-}
 
 .btm {
   color: hsl(0, 0%, 100%);
@@ -49,11 +44,3 @@ body {
   background-color: hsl(155, 54%, 46%);
 }
 
-
-@media screen and (min-width: 780px) {
-  body {
-    max-width: 1440px;
-    height: auto;
-    margin: 0 auto;
-  }
-}
