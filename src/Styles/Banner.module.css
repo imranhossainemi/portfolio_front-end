@@ -3,17 +3,19 @@
   height: 650px;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
   background-image: url('../Assets/images/header-illsutration-mobile.svg');
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .banner .headline h1 {
   color: hsl(218, 54%, 20%);
-  font-size: 40px;
+  font-size: 30px;
   font-weight: 700;
   font-style: normal;
-  line-height: 52px;
+  line-height: 42px;
   text-align: center;
 }
 
@@ -34,9 +36,9 @@
   text-align: center;
 }
 
-@media screen and (min-width:780px) {
+@media screen and (min-width:980px) {
   .banner {
-    height: 1035px;
+    height: 720px;
     background-image: url('../Assets/images/Header-llustration-desktop.svg');
     background-repeat: no-repeat;
     background-position: center;
@@ -44,8 +46,7 @@
   }
 
   .banner .headline,
-  .banner .article,
-  .banner .scroll {
+  .banner .article {
     width: 920px;
     margin-bottom: 24px;
   }
