@@ -23,9 +23,10 @@
   font-size: 20px;
   line-height: 32px;
   color: hsl(218, 25%, 35%);
+  width: 350px;
 }
 
-@media screen and (min-width:780px) {
+@media screen and (min-width:980px) {
   .aboutArticle {
     width: 100%;
     height: 240px;
