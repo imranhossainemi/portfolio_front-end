@@ -47,7 +47,7 @@ nav .mobileNavBtm.active {
   opacity: 0.8;
 }
 
-@media screen and (min-width:780px) {
+@media screen and (min-width:980px) {
   
   .mobileNavBtm {
     display: none;
