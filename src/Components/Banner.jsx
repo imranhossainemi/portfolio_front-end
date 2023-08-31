@@ -11,7 +11,7 @@ const Banner = () => (
           Hey there. I am Imran Hossain
           {' '}
           <br />
-          <span>I am a software developer</span>
+          <span>I am a software engineering.</span>
         </h1>
       </div>
       <div className={styles.article}>
